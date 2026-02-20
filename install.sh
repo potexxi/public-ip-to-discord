@@ -5,6 +5,7 @@ sudo mkdir -p /opt/pubipdiscord
 sudo curl -o /opt/pubipdiscord/main.py https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/heads/main/main.py
 sudo curl -o /opt/pubipdiscord/config.json https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/heads/main/config.json
 sudo chmod +x /opt/pubipdiscord/main.py
+sudo chmod u=rwx,o=rwx,g=rwx /opt/pubipdiscord/config.json
 sudo curl -o /etc/systemd/system/pubipdiscord.service https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/heads/main/pubipdiscord.service
 sudo systemctl daemon-reload
 sudo systemctl enable pubipdiscord
