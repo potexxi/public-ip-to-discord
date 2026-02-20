@@ -18,7 +18,7 @@ A python script that automatically send your public ip (eg. for a server) to a D
 curl -sSL https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/heads/main/install.sh | bash
 ```
 
-**IMPORTANT**
+**IMPORTANT**  
 2. Go to `/opt/pubipdiscord` and change the config.json file:
    <img width="1387" height="103" alt="image" src="https://github.com/user-attachments/assets/7895440b-30ad-4423-b3ce-a557e55c04d6" />
    Replace the webURL with your real webURL, of your Discord webhook. 
