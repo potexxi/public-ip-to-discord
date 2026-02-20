@@ -1,9 +1,9 @@
-
+import json
 from requests import post
 import public_ip
 
-username = "IP-Bot"
-webURL = "https://discordapp.com/api/webhooks/1474316366969569438/Warc3c07OSlvEahKQgTNfWJlBloYkIa1XiJalhN7LyouSJEOrAdJFDhyjiy02XivY93T"
+username = ""
+webURL = ""
 
 def sendmessage(content: str):
     """
@@ -17,6 +17,10 @@ def sendmessage(content: str):
     post(webURL, data=data)
 
 def main():
+    with open("config.json", "r") as f:
+        config = json.load(f)
+    webURL = config["webURL"]
+    username = config["bot_username"]
     ip = public_ip.get()
     content = f"Server-IP: {ip} \n\n@everyone"
     sendmessage(content)
