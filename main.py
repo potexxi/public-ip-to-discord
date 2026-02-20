@@ -1,6 +1,5 @@
 import json
-from requests import post
-import public_ip
+from requests
 
 def sendmessage(content: str, name: str, url: str):
     """
@@ -32,7 +31,7 @@ def main():
         config = json.load(f)
     weburl = config["webURL"]
     username = config["bot_username"]
-    ip = public_ip.get()
+    ip = requests.get("https://api.ipify.org").text
     first, second = decode(config["message"])
     content = f"{first} {ip} {second}"
     try:
