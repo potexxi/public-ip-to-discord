@@ -1,5 +1,5 @@
 import json
-from requests
+import requests
 
 def sendmessage(content: str, name: str, url: str):
     """
