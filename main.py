@@ -12,7 +12,7 @@ def sendmessage(content: str, name: str, url: str):
         "content": content,
         "username": name
     }
-    post(url, data=data)
+    requests.post(url, data=data)
 
 def decode(message: str):
     """
