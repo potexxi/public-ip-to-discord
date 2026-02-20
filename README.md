@@ -23,8 +23,8 @@ curl -sSL https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/he
    <img width="1387" height="103" alt="image" src="https://github.com/user-attachments/assets/7895440b-30ad-4423-b3ce-a557e55c04d6" />
    Replace the webURL with your real webURL, of your Discord webhook. 
 
-3. The service will run on the next startup. To control the service,
+3. The service will 'run' on the next startup. To control the service,
    use: 
-    + 'sudo systemctl status pubipdiscord'
+    + 'sudo systemctl status pubipdiscord
     + 'sudo systemctl stop pubipdiscord'
     + 'sudo systemctl start pubipdiscord'
