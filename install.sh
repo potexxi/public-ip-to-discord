@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update
-sudo apt install python3-requests
-sudo apt install python3-pip
+sudo apt -y install python3-requests
+sudo apt -y install python3-pip
 sudo pip3 install public-ip
 sudo mkdir -p /opt/pubipdiscord
 sudo curl -o /opt/pubipdiscord/main.py https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/heads/main/main.py
