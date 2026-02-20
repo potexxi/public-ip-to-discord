@@ -27,9 +27,15 @@ curl -sSL https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/he
 
 3. The service will run on the next startup. To control the service,
    use: 
-    + `sudo systemctl status pubipdiscord`
-    + `sudo systemctl stop pubipdiscord`
-    + `sudo systemctl start pubipdiscord`
+   ```bash
+   sudo systemctl status pubipdiscord
+   ```
+   ```bash
+   sudo systemctl stop pubipdiscord
+   ```
+   ```bash
+   sudo systemctl start pubipdiscord
+   ```
 
 
 <br>
@@ -38,6 +44,15 @@ curl -sSL https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/he
 # Deinstallation
 
 1. Run following commands, to delete the files and requirements:
-   + Delete pubipdiscord-folder: `sudo rm -rf /opt/pubipdiscord`
-   + Delete pubipdiscord.service: `sudo rm /etc/systemd/system/pubipdiscord.service`
-   + Delete python requests: sudo `sudo apt remove python3-requests`
+   + Delete pubipdiscord-folder:
+      ```bash
+      sudo rm -rf /opt/pubipdiscord
+      ```
+   + Delete pubipdiscord.service:
+      ```bash
+      sudo rm /etc/systemd/system/pubipdiscord.service
+      ```
+   + Delete python requests:
+      ```bash
+      sudo apt remove python3-requests
+      ```
