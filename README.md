@@ -12,6 +12,7 @@ A python script that automatically send your public ip (eg. for a server) to a D
 + no requirements needed, automatically installs them
 
 <br>
+
 # Installation
 
 1. Run following command, to install all files and requirements:
