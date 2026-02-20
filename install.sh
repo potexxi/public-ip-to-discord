@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo mkdir -p /opt/pubipdiscord
-sudo curl -o /opt/pubipdiscord/main.py https://github.com/potexxi/public-ip-to-discord/blob/main/main.py
-sudo curl -o /opt/pubipdiscord/config.json https://github.com/potexxi/public-ip-to-discord/blob/main/config.json
+sudo curl -o /opt/pubipdiscord/main.py https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/heads/main/main.py?token=GHSAT0AAAAAADTVIGLSSKHQVVTS4QLQNQ5A2MYMAKQ
+sudo curl -o /opt/pubipdiscord/config.json https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/heads/main/config.json?token=GHSAT0AAAAAADTVIGLSV2LKE53ENBW6UFXU2MYMA6A
 sudo chmod +x /opt/pubipdiscord/main.py
 echo "Installation complete."
 echo "Start with: python3 /opt/pubipdiscord/main.py"
