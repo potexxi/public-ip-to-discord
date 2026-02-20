@@ -3,6 +3,7 @@ Description=Public IP to Discord
 After=network.target
 
 [Service]
+ExecStartPre=/bin/sleep 15
 ExecStart=/usr/bin/python3 /opt/pubipdiscord/main.py
 WorkingDirectory=/opt/pubipdiscord
 Restart=always
