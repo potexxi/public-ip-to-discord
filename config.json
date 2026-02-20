@@ -2,5 +2,6 @@
   "app_name": "public-ip-to-discord",
   "version": 1,
   "webURL": "https://discordapp.com/api/webhooks/1474316366969569438/Warc3c07OSlvEahKQgTNfWJlBloYkIa1XiJalhN7LyouSJEOrAdJFDhyjiy02XivY93T",
-  "bot_username": "IP-Bot"
+  "bot_username": "IP-Bot",
+  "message": "Server IP: <IP (don't changes this)> \n\n@everyone"
 }
