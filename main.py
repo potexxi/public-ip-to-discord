@@ -27,7 +27,7 @@ def decode(message: str):
     return firsthalf, secondhalf
 
 def main():
-    with open("config.json", "r") as f:
+    with open("/opt/pubipdiscord/config.json", "r") as f:
         config = json.load(f)
     weburl = config["webURL"]
     username = config["bot_username"]
