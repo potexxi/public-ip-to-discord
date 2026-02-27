@@ -14,7 +14,7 @@ A python script that automatically send your public ip (eg. for a server) to a D
 <br>
 <br>
 
-# Installation
+# Install
 
 1. Run following command, to install all files and requirements:
 ```bash
@@ -40,7 +40,7 @@ curl -sSL https://raw.githubusercontent.com/potexxi/public-ip-to-discord/refs/he
 <br>
 <br>
 
-# Deinstallation
+# Uninstall
 
 1. Run following commands, to delete the files and requirements:
    + Delete pubipdiscord-folder:
